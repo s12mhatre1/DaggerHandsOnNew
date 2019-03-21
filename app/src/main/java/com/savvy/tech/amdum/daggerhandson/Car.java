@@ -16,7 +16,7 @@ public class Car {
         this.engine = engine;
         this.wheels = wheels;
         this.audio = audio;
-
+        Log.d(TAG, "Car: ");
     }
 
     @Inject
